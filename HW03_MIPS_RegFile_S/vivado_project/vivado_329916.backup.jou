@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar  1 17:21:08 2021
+# Process ID: 329916
+# Current directory: C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent329472 C:\Users\e190a104\Desktop\HW04_MIPS_RegFile_Solution_Spring2021\vivado_project\vivado_project.xpr
+# Log file: C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado.log
+# Journal file: C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/simulation_sources/regfile_wave.wcfg
+source regfile_tb.tcl
+close_sim
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_design

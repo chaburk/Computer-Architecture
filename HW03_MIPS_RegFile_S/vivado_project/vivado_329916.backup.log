@@ -1,0 +1,183 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar  1 17:21:08 2021
+# Process ID: 329916
+# Current directory: C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent329472 C:\Users\e190a104\Desktop\HW04_MIPS_RegFile_Solution_Spring2021\vivado_project\vivado_project.xpr
+# Log file: C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado.log
+# Journal file: C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado_project.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 985.098 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'regfile_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj regfile_tb_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+"xelab -wto a4fa08d098654964b85632d4baeeb640 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot regfile_tb_behav xil_defaultlib.regfile_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a4fa08d098654964b85632d4baeeb640 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot regfile_tb_behav xil_defaultlib.regfile_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "regfile_tb_behav -key {Behavioral:sim_1:Functional:regfile_tb} -tclbatch {regfile_tb.tcl} -view {C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/simulation_sources/regfile_wave.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/simulation_sources/regfile_wave.wcfg
+source regfile_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 300ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'regfile_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 300ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 985.098 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: RegFile
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1259.066 ; gain = 245.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RegFile' [C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/design_sources/regfile.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (1#1) [C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/design_sources/regfile.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1338.148 ; gain = 324.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1338.148 ; gain = 324.410
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1338.148 ; gain = 324.410
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1338.148 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1417.152 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:15 . Memory (MB): peak = 1536.324 ; gain = 522.586
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:23 . Memory (MB): peak = 1536.324 ; gain = 551.227
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: RegFile
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1541.844 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RegFile' [C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/design_sources/regfile.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (1#1) [C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/design_sources/regfile.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1541.844 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1541.844 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1541.844 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1541.844 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1552.480 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1555.445 ; gain = 13.602
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1555.445 ; gain = 13.602
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: RegFile
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1586.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'RegFile' [C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/design_sources/regfile.vhd:20]
+INFO: [Synth 8-256] done synthesizing module 'RegFile' (1#1) [C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/design_sources/regfile.vhd:20]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1586.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1586.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1586.855 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1586.855 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1586.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1586.855 ; gain = 0.000
+4 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:10 . Memory (MB): peak = 1586.855 ; gain = 0.000
+close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  1 17:28:43 2021...

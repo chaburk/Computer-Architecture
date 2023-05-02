@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 27 15:36:55 2023
+# Process ID: 18612
+# Current directory: C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11820 C:\Users\chase\OneDrive\Desktop\HW03_MIPS_RegFile_Solution\vivado_project\vivado_project.xpr
+# Log file: C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project/vivado.log
+# Journal file: C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project/vivado_project.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/e190a104/Desktop/HW04_MIPS_RegFile_Solution_Spring2021/vivado_project' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 27 15:37:34 2023...

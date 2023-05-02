@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 27 15:32:37 2023
+# Process ID: 18744
+# Current directory: C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2436 C:\Users\chase\OneDrive\Desktop\HW03_MIPS_RegFile_Solution\vivado_project\vivado_project.xpr
+# Log file: C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project/vivado.log
+# Journal file: C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chase/OneDrive/Desktop/HW03_MIPS_RegFile_Solution/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
