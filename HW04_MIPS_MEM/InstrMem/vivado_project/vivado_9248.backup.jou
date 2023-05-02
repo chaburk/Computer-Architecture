@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar  1 13:16:15 2023
+# Process ID: 9248
+# Current directory: C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6560 C:\Users\chase\OneDrive\Desktop\HW04_MIPS_MEM_Burkdoll\InstrMem\vivado_project\vivado_project.xpr
+# Log file: C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/vivado_project/vivado.log
+# Journal file: C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/simulation_sources/InstrMem_wave.wcfg
+source InstrMem.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/simulation_sources/InstrMem_wave.wcfg
+source InstrMem.tcl
+close_sim
+close_project
+create_project vivado_project . -part xc7a12ticsg325-1L
+set_property target_language VHDL [current_project]
+add_files {C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/design_sources/my_packages/my_package.vhd C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/design_sources/my_packages/ieee_2008/math_real.vhdl C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/design_sources/InstrMem.vhd C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/design_sources/my_packages/ieee_2008/math_real-body.vhdl C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/design_sources/my_packages/my_package-body.vhd}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/simulation_sources/InstrMem_wave.wcfg
+add_files -fileset sim_1 -norecurse C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/simulation_sources/InstrMem_tb.vhd
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property -name {xsim.simulate.runtime} -value {300ns} -objects [get_filesets sim_1]
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/simulation_sources/InstrMem_wave.wcfg
+source InstrMem_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM_Burkdoll/InstrMem/simulation_sources/InstrMem_wave.wcfg
+source InstrMem_tb.tcl
+close_sim

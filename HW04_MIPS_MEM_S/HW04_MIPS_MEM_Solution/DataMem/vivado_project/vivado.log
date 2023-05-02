@@ -1,0 +1,104 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar  2 12:24:25 2021
+# Process ID: 20768
+# Current directory: C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21500 C:\Users\e190a104\Desktop\HW05_MIPS_MEM_Solution_Spring2021\DataMem\vivado_project\vivado_project.xpr
+# Log file: C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado.log
+# Journal file: C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7a100tcsg324-1 C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project'
+INFO: [Project 1-313] Project file moved from 'C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Fall2020/DataMem/vivado_project' since last save.
+INFO: [Project 1-563] Overriding project part, 'xc7vx485tffg1157-1', with new part: 'xc7a100tcsg324-1'.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-573] Overriding 'synth_1' run's part, 'xc7vx485tffg1157-1', with new part: 'xc7a100tcsg324-1'.
+INFO: [Project 1-573] Overriding 'impl_1' run's part, 'xc7vx485tffg1157-1', with new part: 'xc7a100tcsg324-1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1000.066 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'DataMem_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj DataMem_tb_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/design_sources/my_packages/my_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/design_sources/DataMem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DataMem'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/design_sources/my_packages/ieee_2008/math_real.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/design_sources/my_packages/ieee_2008/math_real-body.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/design_sources/my_packages/my_package-body.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/simulation_sources/DataMem_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DataMem_tb'
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+"xelab -wto 930e6c2f004847869aaa721336677540 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot DataMem_tb_behav xil_defaultlib.DataMem_tb -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 930e6c2f004847869aaa721336677540 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot DataMem_tb_behav xil_defaultlib.DataMem_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.my_package
+Compiling package xil_defaultlib.math_real
+Compiling package ieee.numeric_std
+Compiling architecture behav of entity xil_defaultlib.DataMem [datamem_default]
+Compiling architecture behavior of entity xil_defaultlib.datamem_tb
+Built simulation snapshot DataMem_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.sim/sim_1/behav/xsim/xsim.dir/DataMem_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.sim/sim_1/behav/xsim/xsim.dir/DataMem_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Mar  2 12:31:58 2021. For additional details about this file, please refer to the WebTalk help file at E:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar  2 12:31:58 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1000.066 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "DataMem_tb_behav -key {Behavioral:sim_1:Functional:DataMem_tb} -tclbatch {DataMem_tb.tcl} -view {C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/simulation_sources/DataMem_wave.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/simulation_sources/DataMem_wave.wcfg
+source DataMem_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 300ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'DataMem_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 300ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1000.066 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1000.066 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  2 12:34:09 2021...

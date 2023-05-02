@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar  2 12:24:25 2021
+# Process ID: 20768
+# Current directory: C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21500 C:\Users\e190a104\Desktop\HW05_MIPS_MEM_Solution_Spring2021\DataMem\vivado_project\vivado_project.xpr
+# Log file: C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado.log
+# Journal file: C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -part xc7a100tcsg324-1 C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/e190a104/Desktop/HW05_MIPS_MEM_Solution_Spring2021/DataMem/simulation_sources/DataMem_wave.wcfg
+source DataMem_tb.tcl
+close_sim

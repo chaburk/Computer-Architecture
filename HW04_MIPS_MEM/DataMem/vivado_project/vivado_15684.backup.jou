@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Feb 27 15:30:52 2023
+# Process ID: 15684
+# Current directory: C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM/DataMem/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3544 C:\Users\chase\OneDrive\Desktop\HW04_MIPS_MEM\DataMem\vivado_project\vivado_project.xpr
+# Log file: C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM/DataMem/vivado_project/vivado.log
+# Journal file: C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM/DataMem/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM/DataMem/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM/DataMem/simulation_sources/DataMem_wave.wcfg
+source DataMem_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM/DataMem/simulation_sources/DataMem_wave.wcfg
+source DataMem_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW04_MIPS_MEM/DataMem/simulation_sources/DataMem_wave.wcfg
+source DataMem_tb.tcl
+close_sim
