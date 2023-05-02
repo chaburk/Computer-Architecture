@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Mar 10 13:36:18 2023
+# Process ID: 19948
+# Current directory: C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14540 C:\Users\chase\OneDrive\Desktop\HW05_MIPS_ALU_Burkdoll\vivado_project\vivado_project.xpr
+# Log file: C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/vivado_project/vivado.log
+# Journal file: C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/vivado_project/vivado_project.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/simulation_sources/alu_wave.wcfg
+source alu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/simulation_sources/alu_wave.wcfg
+source alu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/simulation_sources/alu_wave.wcfg
+source alu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/simulation_sources/alu_wave.wcfg
+source alu_tb.tcl
+close_sim

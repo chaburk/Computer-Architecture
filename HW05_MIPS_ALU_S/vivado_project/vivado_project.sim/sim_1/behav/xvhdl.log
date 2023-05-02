@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW06_MIPS_ALU_Solution_Fall2018/design_sources/my_packages/ieee_2008/math_real.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW06_MIPS_ALU_Solution_Fall2018/design_sources/my_packages/my_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW06_MIPS_ALU_Solution_Fall2018/design_sources/my_packages/ieee_2008/math_real-body.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW06_MIPS_ALU_Solution_Fall2018/design_sources/my_packages/my_package-body.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW06_MIPS_ALU_Solution_Fall2018/design_sources/alu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW06_MIPS_ALU_Solution_Fall2018/simulation_sources/alu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity alu_tb

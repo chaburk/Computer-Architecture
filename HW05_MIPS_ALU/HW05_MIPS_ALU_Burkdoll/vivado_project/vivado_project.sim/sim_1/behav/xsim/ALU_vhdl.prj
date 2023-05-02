@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../design_sources/my_packages/my_package.vhd" \
+"../../../../../design_sources/my_packages/ieee_2008/math_real.vhdl" \
+"../../../../../simulation_sources/alu_tb.vhd" \
+"../../../../../design_sources/my_packages/ieee_2008/math_real-body.vhdl" \
+"../../../../../design_sources/my_packages/my_package-body.vhd" \
+
+# Do not sort compile order
+nosort

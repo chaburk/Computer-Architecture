@@ -1,0 +1,10 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/alu.vhd,1678484614,vhdl,,,,alu,,,,,,,,
+C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/my_packages/ieee_2008/math_real-body.vhdl,1677878402,vhdl,,,,,,,,,,,,
+C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/my_packages/ieee_2008/math_real.vhdl,1677878402,vhdl,C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/my_packages/ieee_2008/math_real-body.vhdl;C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/my_packages/my_package-body.vhd,,,math_real,,,,,,,,
+C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/my_packages/my_package-body.vhd,1677878402,vhdl,,,,,,,,,,,,
+C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/my_packages/my_package.vhd,1677878402,vhdl,C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/alu.vhd;C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/design_sources/my_packages/my_package-body.vhd,,,my_package,,,,,,,,
+C:/Users/chase/OneDrive/Desktop/HW05_MIPS_ALU_Burkdoll/simulation_sources/alu_tb.vhd,1677878402,vhdl,,,,alu_tb,,,,,,,,
