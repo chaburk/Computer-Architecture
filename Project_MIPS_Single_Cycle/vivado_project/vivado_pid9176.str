@@ -1,0 +1,319 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 9176
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sat Apr 29 18:21:15 CDT 2023
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 150
+Available screens: 2
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	chase
+User home directory: C:/Users/chase
+User working directory: C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/chase/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/chase/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/chase/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado.log
+Vivado journal file location: 	C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado.jou
+Engine tmp dir: 	C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/.Xil/Vivado-9176-Chaburk
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	139 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,015 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\chase\OneDrive\Documents\Spring23\EECS645\Project_MIPS_Single_Cycle\vivado_project\vivado_project.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado_project.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 110 MB (+112869kb) [00:00:09]
+// [Engine Memory]: 1,015 MB (+913111kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  2455 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Project name: vivado_project; location: C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project; part: xc7a12ticsg325-1L
+// HMemoryUtils.trashcanNow. Engine heap size: 1,015 MB. GUI used memory: 73 MB. Current time: 4/29/23, 6:21:15 PM CDT
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 122 MB (+6352kb) [00:00:16]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 56 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_single_cycle(struct) (top_mips_single_cycle.vhd)]", 1); // D
+// [GUI Memory]: 150 MB (+23800kb) [00:01:10]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_single_cycle(struct) (top_mips_single_cycle.vhd), ALU_inst : ALU(behav) (alu.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_single_cycle(struct) (top_mips_single_cycle.vhd), ALU_inst : ALU(behav) (alu.vhd)]", 5, false, false, false, false, false, true); // D - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Elapsed time: 24 seconds
+selectCodeEditor("alu.vhd", 452, 240); // bP
+// Elapsed time: 71 seconds
+selectCodeEditor("alu.vhd", 687, 419); // bP
+typeControlKey((HResource) null, "alu.vhd", 'c'); // bP
+selectCodeEditor("alu.vhd", 688, 403); // bP
+typeControlKey((HResource) null, "alu.vhd", 'v'); // bP
+selectCodeEditor("alu.vhd", 435, 438); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("alu.vhd", 513, 439); // bP
+selectCodeEditor("alu.vhd", 645, 423); // bP
+selectCodeEditor("alu.vhd", 509, 441); // bP
+// Elapsed time: 41 seconds
+selectCodeEditor("alu.vhd", 687, 359); // bP
+typeControlKey((HResource) null, "alu.vhd", 'c'); // bP
+selectCodeEditor("alu.vhd", 622, 239); // bP
+typeControlKey((HResource) null, "alu.vhd", 'v'); // bP
+selectCodeEditor("alu.vhd", 609, 213); // bP
+selectCodeEditor("alu.vhd", 346, 189); // bP
+selectCodeEditor("alu.vhd", 377, 220); // bP
+selectCodeEditor("alu.vhd", 337, 217); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("alu.vhd", 339, 236); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 23 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_single_cycle(struct) (top_mips_single_cycle.vhd), CU_inst : CU(behav) (cu.vhd)]", 7, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_single_cycle(struct) (top_mips_single_cycle.vhd), CU_inst : CU(behav) (cu.vhd)]", 7, false, false, false, false, false, true); // D - Double Click
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Elapsed time: 26 seconds
+selectCodeEditor("cu.vhd", 476, 355); // bP
+// Elapsed time: 45 seconds
+selectCodeEditor("cu.vhd", 358, 290); // bP
+typeControlKey((HResource) null, "cu.vhd", 'c'); // bP
+selectCodeEditor("cu.vhd", 419, 288); // bP
+typeControlKey((HResource) null, "cu.vhd", 'v'); // bP
+// Elapsed time: 36 seconds
+selectCodeEditor("cu.vhd", 658, 263); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("cu.vhd", 664, 238); // bP
+selectCodeEditor("cu.vhd", 448, 211); // bP
+typeControlKey((HResource) null, "cu.vhd", 'v'); // bP
+selectCodeEditor("cu.vhd", 88, 240); // bP
+selectCodeEditor("cu.vhd", 357, 244); // bP
+// Elapsed time: 14 seconds
+selectCodeEditor("cu.vhd", 327, 268); // bP
+selectCodeEditor("cu.vhd", 273, 264); // bP
+selectCodeEditor("cu.vhd", 479, 238); // bP
+typeControlKey(null, null, 'z');
+// Elapsed time: 14 seconds
+selectCodeEditor("cu.vhd", 767, 262); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("cu.vhd", 371, 158); // bP
+selectCodeEditor("cu.vhd", 387, 242); // bP
+typeControlKey((HResource) null, "cu.vhd", 'v'); // bP
+selectCodeEditor("cu.vhd", 90, 267); // bP
+selectCodeEditor("cu.vhd", 351, 268); // bP
+selectCodeEditor("cu.vhd", 323, 312); // bP
+typeControlKey((HResource) null, "cu.vhd", 'c'); // bP
+selectCodeEditor("cu.vhd", 290, 365); // bP
+typeControlKey((HResource) null, "cu.vhd", 'v'); // bP
+selectCodeEditor("cu.vhd", 361, 365); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // F
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // az
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_single_cycle(struct) (top_mips_single_cycle.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mips_single_cycle(struct) (top_mips_single_cycle.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // N
+// Elapsed time: 276 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 432, 418); // bP
+// Elapsed time: 32 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 384, 408); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 371, 429); // bP
+// Elapsed time: 143 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 406, 217); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 102 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 391, 355); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 508, 340); // bP
+// Elapsed time: 195 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 364, 365); // bP
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'c'); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 375, 310); // bP
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'v'); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 430, 313); // bP
+// Elapsed time: 79 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 250, 259); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 280, 436); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 88 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 243, 313); // bP
+// Elapsed time: 23 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 469, 290); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 48 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 331, 463); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 40 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 228, 94); // bP
+// Elapsed time: 191 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 471, 269); // bP
+// HMemoryUtils.trashcanNow. Engine heap size: 1,015 MB. GUI used memory: 80 MB. Current time: 4/29/23, 6:51:15 PM CDT
+// Elapsed time: 75 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 184, 290); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 184, 290, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'c'); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 224, 383); // bP
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'v'); // bP
+// Elapsed time: 84 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 298, 162); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 149 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 267, 138); // bP
+// Elapsed time: 20 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 468, 140); // bP
+// Elapsed time: 36 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 540, 137); // bP
+// Elapsed time: 60 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 408, 263); // bP
+// Elapsed time: 142 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 174, 241); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 174, 241, false, false, false, false, true); // bP - Double Click
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'c'); // bP
+selectCodeEditor("top_mips_single_cycle.vhd", 195, 387); // bP
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'v'); // bP
+// Elapsed time: 24 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 407, 388); // bP
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'c'); // bP
+typeControlKey((HResource) null, "top_mips_single_cycle.vhd", 'v'); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("top_mips_single_cycle.vhd", 191, 379); // bP
+// Elapsed time: 63 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 340, 315); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 245 seconds
+selectCodeEditor("top_mips_single_cycle.vhd", 395, 260); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// d (cr): Settings: addNotify
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Simulation]", 1, false); // B
+selectTab(PAResourceOtoP.ProjectSettingsSimulationPanel_TABBED_PANE, PAResourceOtoP.ProjectSettingsSimulationPanel_SIMULATION, "Simulation", 2); // i
+// Elapsed time: 45 seconds
+dismissDialog("Settings"); // d
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'mips_single_cycle_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj mips_single_cycle_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 999.527 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '7' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 86514101006f40e284587206a3c92435 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot mips_single_cycle_tb_behav xil_defaultlib.mips_single_cycle_tb -log elaborate.log" 
+// Tcl Message: Built simulation snapshot mips_single_cycle_tb_behav 
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav/xsim/xsim.dir/mips_single_cycle_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav/xsim/xsim.dir/mips_single_cycle_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat Apr 29 19:07:28 2023. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Sat Apr 29 19:07:28 2023... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 999.527 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/vivado_project/vivado_project.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "mips_single_cycle_tb_behav -key {Behavioral:sim_1:Functional:mips_single_cycle_tb} -tclbatch {mips_single_cycle_tb.tcl} -view {C:/Users/chase/OneDrive/Documents/Spring23/EECS645/Project_MIPS_Single_Cycle/simulation_sources/mips_single_cycle_wave.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// WARNING: HEventQueue.dispatchEvent() is taking  1098 ms.
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_PROTOCOL_INSTANCE_TREE
+// Elapsed time: 17 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
