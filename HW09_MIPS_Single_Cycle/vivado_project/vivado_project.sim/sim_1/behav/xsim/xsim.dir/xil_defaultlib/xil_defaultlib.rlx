@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/DataMem.vhd,1682191231,vhdl,,,,datamem,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/InstrMem.vhd,1682191247,vhdl,,,,instrmem,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/alu.vhd,1681243123,vhdl,,,,alu,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/cu.vhd,1681243123,vhdl,,,,cu,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/my_packages/ieee_2008/math_real-body.vhdl,1681243123,vhdl,,,,,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/my_packages/ieee_2008/math_real.vhdl,1681243123,vhdl,C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/my_packages/ieee_2008/math_real-body.vhdl;C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/my_packages/my_package-body.vhd,,,math_real,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/my_packages/my_package-body.vhd,1681243123,vhdl,,,,,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/my_packages/my_package.vhd,1681243123,vhdl,C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/DataMem.vhd;C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/InstrMem.vhd;C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/cu.vhd;C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/my_packages/my_package-body.vhd;C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/pc_register.vhd;C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/regfile.vhd;C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/top_mips_single_cycle.vhd,,,my_package,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/pc_register.vhd,1682191261,vhdl,,,,pc_register,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/regfile.vhd,1682191188,vhdl,,,,regfile,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/top_mips_single_cycle.vhd,1682191052,vhdl,,,,mips_single_cycle,,,,,,,,
+C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/simulation_sources/mips_single_cycle_tb.vhd,1681243123,vhdl,,,,mips_single_cycle_tb,,,,,,,,

@@ -1,0 +1,14 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/DataMem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DataMem'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/InstrMem.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'InstrMem'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/cu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'CU'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/pc_register.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'PC_register'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'RegFile'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/design_sources/top_mips_single_cycle.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_single_cycle'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/chase/OneDrive/Documents/Spring23/EECS645/HW09_MIPS_Single_Cycle_Burkdoll/simulation_sources/mips_single_cycle_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mips_single_cycle_tb'
