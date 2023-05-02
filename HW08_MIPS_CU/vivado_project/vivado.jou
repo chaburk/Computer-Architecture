@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Mon Apr 10 13:07:11 2023
+# Process ID: 22564
+# Current directory: H:/EECS645/HW08_MIPS_CU/vivado_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1848 H:\EECS645\HW08_MIPS_CU\vivado_project\vivado_project.xpr
+# Log file: H:/EECS645/HW08_MIPS_CU/vivado_project/vivado.log
+# Journal file: H:/EECS645/HW08_MIPS_CU/vivado_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+oopen_project H:/EECS645/HW08_MIPS_CU/vivado_project/vivado_project.xprupdate_compile_order -fileset sources_1
+
+launch_simulation
+open_wave_config H:/EECS645/HW08_MIPS_CU/simulation_sources/cu_wave.wcfg
+source cu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config H:/EECS645/HW08_MIPS_CU/simulation_sources/cu_wave.wcfg
+source cu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config H:/EECS645/HW08_MIPS_CU/simulation_sources/cu_wave.wcfg
+source cu_tb.tcl
+close_sim
+launch_simulation
+open_wave_config H:/EECS645/HW08_MIPS_CU/simulation_sources/cu_wave.wcfg
+source cu_tb.tcl
+close_sim

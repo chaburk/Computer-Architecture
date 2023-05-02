@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW09_MIPS_CU_Solution/design_sources/my_packages/ieee_2008/math_real.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW09_MIPS_CU_Solution/design_sources/my_packages/my_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW09_MIPS_CU_Solution/design_sources/my_packages/ieee_2008/math_real-body.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW09_MIPS_CU_Solution/design_sources/my_packages/my_package-body.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW09_MIPS_CU_Solution/design_sources/cu.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/e190a104/Desktop/HW09_MIPS_CU_Solution/simulation_sources/cu_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity cu_tb
